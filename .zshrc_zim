@@ -49,6 +49,7 @@ function proxy(){
     echo -e "proxy on"
     curl cip.cc
 }
+
 function unproxy(){
     unset http_proxy
     unset https_proxy
