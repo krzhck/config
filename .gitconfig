@@ -1,0 +1,17 @@
+[https]
+	proxy = https://127.0.0.1:7890
+[user]
+	email = isaaxou@icloud.com
+	name = krzhck
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4et+9XWdKTaQa1Gzr3wOA083XZT5jzU+5oYX/rch7Na/+5qewVRbF8VS6+RQC4HxZofVMsdfUBLal8AduMwN+8xvS2oCc229Na233tqQdYWbZh+tpkdymKm5L4zyludmFXss+pbw987irjOOX9W7Jdnxqa3fYDUz8b/CqOu5NFEa1jjChoQwu+iBzwkNnFsZCUJswg9do5evAACmRLnkBzXSnG1fRyMgNbKiTnsYh8ixAx3uEyasAvjJwrMpYUwsUYr/3XWT/lREcqzrfPuwFKyUeXUswXjpQ6jMou7ZS0EeFhubIrmaIGZ6glIpscBJWsnBDhq7GWoOhjagrMWWp
+[http]
+	version = HTTP/1.1
+	proxy = http://127.0.0.1:7890
+[core]
+	excludesfile = /Users/krzhck/.gitignore_global
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
