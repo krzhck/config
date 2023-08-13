@@ -1,0 +1,12 @@
+# popclip
+name: Easydict
+icon: search monospaced filled E
+before: copy
+key combos: [option F, left]
+after: paste
+
+
+# popclip
+name: FindAnyFile
+icon: search monospaced filled F
+url: fafapp://find?inp=***
