@@ -4,7 +4,7 @@ icon: search monospaced filled Aa
 key combos:
 - command C
 - option F
-- wait 300
+- wait 500
 - command V
 
 # popclip
