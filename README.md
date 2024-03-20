@@ -31,20 +31,24 @@
 
 ### 💻Dev
 
-[iTerm2](https://iterm2.com/) as primary terminal together with [Zsh](https://www.zsh.org/).
+- [iTerm2](https://iterm2.com/) as primary terminal together with [Zsh](https://www.zsh.org/).
 
-[VS Code](https://code.visualstudio.com/) as main code editor.
+- [VS Code](https://code.visualstudio.com/) as main code editor.
 
 ### ⚙️Utility
 
 - [1Password](https://1password.com/) to keep all passwords and secret info.
 - [Xnip](https://xnipapp.com/) for quick editing of screenshots/screencasts.
 
+
+
 ## iOS Apps
 
 > TODO
 
 <img src="img/ios_0.png" style="width:250px;" /><img src="img/ios_0.png" style="width:250px;" />
+
+
 
 ## Windows Apps
 
