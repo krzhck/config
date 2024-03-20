@@ -1,4 +1,4 @@
-# Config (macOS / iOS)
+# Config (macOS / iOS / Windows)
 
 > Apps/CLIs/configs I use on macOS/iOS/Windows.
 
