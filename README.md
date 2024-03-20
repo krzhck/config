@@ -50,7 +50,7 @@
 
 
 
-## Windows Apps
+## Windows App
 
-> TODO
+- [Simple Sticky Notes](https://www.simplestickynotes.com/) to keep simple notes.
 
