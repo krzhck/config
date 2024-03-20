@@ -44,7 +44,7 @@
 
 > TODO
 
-<img src="img/ios_0.png" style="zoom:25%;" /><img src="img/ios_0.png" style="zoom:25%;" />
+<img src="img/ios_0.png" style="width:250px;" /><img src="img/ios_0.png" style="width:250px;" />
 
 ## Windows Apps
 
