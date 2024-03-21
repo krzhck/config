@@ -37,8 +37,13 @@
 
 ### ⚙️Utility
 
+- [Raycast](https://www.raycast.com/) to launch apps and commands.
+
 - [1Password](https://1password.com/) to keep all passwords and secret info.
 - [Xnip](https://xnipapp.com/) for quick editing of screenshots/screencasts.
+- [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev) for full Internet access.
+- [AltTab](https://alt-tab-macos.netlify.app/) to switch between windows.
+- [Bartender 4](https://www.macbartender.com/Bartender4/) to organize menu bar icons.
 
 
 
