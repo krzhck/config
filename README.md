@@ -18,6 +18,11 @@
 ### 🛠️Tool
 
 - [Skim](https://skim-app.sourceforge.io/) to read PDF.
+- [CleanMyMac](https://cleanmymac.com/) to clean my mac.
+- [Permute](https://software.charliemonroe.net/permute/) to convert file formats.
+- [Downie](https://software.charliemonroe.net/downie/) to download web contents.
+- [AppCleaner](https://freemacsoft.net/appcleaner/) to uninstall apps.
+- [QSpace](https://qspace.awehunt.com/) as a better Finder.
 
 ### 🎬Media
 
@@ -46,6 +51,8 @@
 - [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev) for full Internet access.
 - [AltTab](https://alt-tab-macos.netlify.app/) to switch between windows.
 - [Bartender 4](https://www.macbartender.com/Bartender4/) to organize menu bar icons.
+- [Swish](https://highlyopinionated.co/swish/) to enhance gesture control.
+- [Magnet](https://magnet.crowdcafe.com/) to manage windows.
 
 
 
