@@ -95,4 +95,4 @@
 
 - [Simple Sticky Notes](https://www.simplestickynotes.com/) to keep simple notes.
 - [PixPin](https://pixpinapp.com/) for quick editing of screenshots/screencasts.
-
+- [Twinkle Tray](https://twinkletray.com/) to control mutipul display brightness.
