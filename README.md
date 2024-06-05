@@ -19,8 +19,8 @@
 
 - [Skim](https://skim-app.sourceforge.io/) to read PDF.
 - [CleanMyMac](https://cleanmymac.com/) to clean my mac.
-- [Permute 3](https://software.charliemonroe.net/permute/) to convert file formats.
-- [Downie 4](https://software.charliemonroe.net/downie/) to download web contents.
+- [Permute](https://software.charliemonroe.net/permute/) to convert file formats.
+- [Downie](https://software.charliemonroe.net/downie/) to download web contents.
 - [AppCleaner](https://freemacsoft.net/appcleaner/) to uninstall apps.
 - [QSpace Pro](https://qspace.awehunt.com/) as a better Finder.
 - [Session](https://stayinsession.com/) to stay focused.
@@ -35,6 +35,7 @@
 ### 🎬Media
 
 - [Elemedia Player](https://www.elmedia-video-player.com/) to play video files.
+- [IINA](https://iina.io/) to play video files.
 
 ### 👥Social
 
@@ -45,7 +46,7 @@
 
 - [Typora](https://typora.io/) to edit markdown files.
 - [PDFgear](https://www.pdfgear.com/) to edit PDF.
-- [Capture One](https://www.captureone.com/), [Pixelmator Prophet](https://www.pixelmator.com/pro/) to edit photos.
+- [Capture One](https://www.captureone.com/), [Pixelmator Pro](https://www.pixelmator.com/pro/) to edit photos.
 - [Capcut](https://www.capcut.com/) to edit videos.
 - [Plain Text Editor](https://sindresorhus.com/plain-text-editor/) to edit plain text files.
 
@@ -65,7 +66,7 @@
 - [Xnip](https://xnipapp.com/) for quick editing of screenshots/screencasts.
 - [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev) for full Internet access.
 - [AltTab](https://alt-tab-macos.netlify.app/) to switch between windows.
-- [Bartender 4](https://www.macbartender.com/Bartender4/) to organize menu bar icons.
+- [Bartender](https://www.macbartender.com/) to organize menu bar icons.
 - [Swish](https://highlyopinionated.co/swish/) to enhance gesture control.
 - [Magnet](https://magnet.crowdcafe.com/) to manage windows.
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) to keep mac awake.
@@ -73,7 +74,7 @@
 - [Popclip](https://www.popclip.app/) to conduct instant text actions.
 - [Dropshelf](https://pilotmoon.com/dropshelf/) for temporary storage.
 - [Mac Mouse Fix](https://macmousefix.com/) for mouse configurations.
-- [Step Two](https://steptwo.app/) for 2FA.
+- [Step Two](https://steptwo.app/) for backup 2FA.
 - [MonitorControl](https://monitorcontrol.app/) to control mutipul display brightness.
 - [EasyRes](http://easyresapp.com/) for fast resolution switch.
 - [Input Source Pro](https://inputsource.pro/) to automatically switch input sources.
@@ -87,7 +88,7 @@
 
 > TODO
 
-<img src="img/ios_0.png" style="width:250px;" /><img src="img/ios_0.png" style="width:250px;" />
+<img src="img/ios_0.png" style="width:250px;" /><img src="img/ios_1.png" style="width:250px;" />
 
 
 
