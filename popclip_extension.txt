@@ -1,11 +1,9 @@
 # popclip
-name: Easydict
+name: Translate
 icon: search monospaced filled Aa
 key combos:
 - command C
 - option F
-- wait 500
-- command V
 
 # popclip
 name: FindAnyFile
