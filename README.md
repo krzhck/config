@@ -52,11 +52,13 @@
 
 ### 💻Dev
 
-- [iTerm2](https://iterm2.com/) as primary terminal together with [Zsh](https://www.zsh.org/).
+- [Ghostty](https://ghostty.org/) as terminal emulator.
   - Colors: [Monokai Soda](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/iterm-dynamic-colors/Monokai%20Soda.sh)
 
-  - Zsh Theme: [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+  - Shell: [Zsh](https://www.zsh.org/) + [Zim](https://zimfw.sh/)
 
+  - Zsh Theme: [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+  
 - [VS Code](https://code.visualstudio.com/) as main code editor.
 
 - [Parallels Desktop](https://www.parallels.com/) to run VMs.
