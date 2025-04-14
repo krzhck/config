@@ -101,4 +101,5 @@
 
 - [Simple Sticky Notes](https://www.simplestickynotes.com/) to keep simple notes.
 - [PixPin](https://pixpinapp.com/) for quick editing of screenshots/screencasts.
-- [Twinkle Tray](https://twinkletray.com/) to control mutipul display brightness.
+- [Twinkle Tray](https://twinkletray.com/) to control multiple display brightness.
+- [Sumatra PDF](https://www.sumatrapdfreader.org/) to read PDF.
