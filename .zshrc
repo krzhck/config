@@ -1,5 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -33,9 +31,13 @@ export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 alias jdk17='export JAVA_HOME=$JAVA_17_HOME'
 alias jdk8='export JAVA_HOME=$JAVA_8_HOME'
-alias subl='sublime'
+alias sub='sublime'
+alias t='tmux'
+alias q='exit'
+alias man='tldr'
+alias fk='fuck'
 alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
-
+# alias azure='ssh -i /Users/krzhck/.ssh/anton_key.pem krzhck@20.2.144.35'
 plugins=(
   git
   zsh-syntax-highlighting
@@ -56,6 +58,15 @@ function unproxy(){
     unset all_proxy
     echo -e "proxy off"
     curl cip.cc
+}
+
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
 }
 
 #
@@ -187,5 +198,7 @@ unset key
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+source $HOME/.cargo/env
+# ~/.zshrc
+eval $(thefuck --alias)
+
