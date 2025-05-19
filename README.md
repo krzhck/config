@@ -103,3 +103,4 @@
 - [PixPin](https://pixpinapp.com/) for quick editing of screenshots/screencasts.
 - [Twinkle Tray](https://twinkletray.com/) to control multiple display brightness.
 - [Sumatra PDF](https://www.sumatrapdfreader.org/) to read PDF.
+- [QuickLook](https://github.com/QL-Win/QuickLook) for quick file preview.
