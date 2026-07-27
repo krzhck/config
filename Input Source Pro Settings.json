@@ -1,0 +1,310 @@
+{
+  "app" : {
+    "buildVersion" : 680,
+    "bundleIdentifier" : "com.runjuu.Input-Source-Pro",
+    "shortVersion" : "2.10.0"
+  },
+  "appRules" : [
+    {
+      "bundleId" : "com.electron.logseq",
+      "bundleName" : "Logseq.app",
+      "createdAt" : "2023-07-31T03:40:02Z",
+      "doNotRestoreKeyboard" : false,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.tencent.inputmethod.wetype.pinyin",
+      "removed" : false,
+      "url" : "file:///Applications/Logseq.app/"
+    },
+    {
+      "bundleId" : "com.tencent.xinWeChat",
+      "bundleName" : "微信.app",
+      "createdAt" : "2023-07-31T03:40:02Z",
+      "doNotRestoreKeyboard" : true,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.tencent.inputmethod.wetype.pinyin",
+      "removed" : false,
+      "url" : "file:///Applications/WeChat.app/"
+    },
+    {
+      "bundleId" : "company.thebrowser.Browser",
+      "bundleName" : "Arc.app",
+      "createdAt" : "2023-07-31T03:40:02Z",
+      "doNotRestoreKeyboard" : false,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "removed" : false,
+      "url" : "file:///Applications/Arc.app/"
+    },
+    {
+      "bundleId" : "com.apple.Music",
+      "bundleName" : "音乐.app",
+      "createdAt" : "2023-07-31T03:40:02Z",
+      "doNotRestoreKeyboard" : true,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.apple.keylayout.ABC",
+      "removed" : false,
+      "url" : "file:///System/Applications/Music.app/"
+    },
+    {
+      "bundleId" : "com.googlecode.iterm2",
+      "bundleName" : "iTerm.app",
+      "createdAt" : "2023-07-31T03:40:02Z",
+      "doNotRestoreKeyboard" : true,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.apple.keylayout.ABC",
+      "removed" : false,
+      "url" : "file:///Applications/iTerm.app/"
+    },
+    {
+      "bundleId" : "com.apple.finder",
+      "bundleName" : "访达.app",
+      "createdAt" : "2023-07-31T03:40:02Z",
+      "doNotRestoreKeyboard" : true,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.tencent.inputmethod.wetype.pinyin",
+      "removed" : false,
+      "url" : "file:///System/Library/CoreServices/Finder.app/"
+    },
+    {
+      "bundleId" : "com.apple.MobileSMS",
+      "bundleName" : "信息.app",
+      "createdAt" : "2023-07-31T03:40:02Z",
+      "doNotRestoreKeyboard" : true,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.tencent.inputmethod.wetype.pinyin",
+      "removed" : false,
+      "url" : "file:///System/Applications/Messages.app/"
+    },
+    {
+      "bundleId" : "com.sublimetext.4",
+      "bundleName" : "Sublime Text.app",
+      "createdAt" : "2023-07-31T03:46:42Z",
+      "doNotRestoreKeyboard" : true,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.apple.keylayout.ABC",
+      "removed" : false,
+      "url" : "file:///Applications/Sublime%20Text.app/"
+    },
+    {
+      "bundleId" : "net.freemacsoft.AppCleaner",
+      "bundleName" : "AppCleaner.app",
+      "createdAt" : "2023-07-31T04:21:09Z",
+      "doNotRestoreKeyboard" : true,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.apple.keylayout.ABC",
+      "removed" : false,
+      "url" : "file:///Applications/AppCleaner.app/"
+    },
+    {
+      "bundleId" : "ru.keepcoder.Telegram",
+      "bundleName" : "Telegram.app",
+      "createdAt" : "2023-07-31T10:44:53Z",
+      "doNotRestoreKeyboard" : false,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.tencent.inputmethod.wetype.pinyin",
+      "removed" : false,
+      "url" : "file:///Applications/Telegram.app/"
+    },
+    {
+      "bundleId" : "com.apple.systempreferences",
+      "bundleName" : "系统设置.app",
+      "createdAt" : "2023-11-02T06:10:08Z",
+      "doNotRestoreKeyboard" : false,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.tencent.inputmethod.wetype.pinyin",
+      "removed" : false,
+      "url" : "file:///System/Applications/System%20Settings.app/"
+    },
+    {
+      "bundleId" : "com.wutian.weibo",
+      "bundleName" : "Maipo.app",
+      "createdAt" : "2024-02-14T03:24:23Z",
+      "doNotRestoreKeyboard" : false,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.tencent.inputmethod.wetype.pinyin",
+      "removed" : false,
+      "url" : "file:///Applications/Maipo.app/"
+    },
+    {
+      "bundleId" : "com.raycast.macos",
+      "bundleName" : "Raycast.app",
+      "createdAt" : "2024-09-24T02:37:20Z",
+      "doNotRestoreKeyboard" : true,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.apple.keylayout.ABC",
+      "removed" : false,
+      "url" : "file:///Applications/Raycast.app/"
+    },
+    {
+      "bundleId" : "com.microsoft.VSCode",
+      "bundleName" : "Visual Studio Code.app",
+      "createdAt" : "2024-09-24T02:38:28Z",
+      "doNotRestoreKeyboard" : true,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.apple.keylayout.ABC",
+      "removed" : false,
+      "url" : "file:///Applications/Visual%20Studio%20Code.app/"
+    },
+    {
+      "bundleId" : "com.todesktop.230313mzl4w4u92",
+      "bundleName" : "Cursor.app",
+      "createdAt" : "2024-09-24T02:38:39Z",
+      "doNotRestoreKeyboard" : true,
+      "doRestoreKeyboard" : false,
+      "forceEnglishPunctuation" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.apple.keylayout.ABC",
+      "removed" : false,
+      "url" : "file:///Applications/Cursor.app/"
+    }
+  ],
+  "browserRules" : [
+    {
+      "createdAt" : "2023-08-03T01:58:22Z",
+      "disabled" : false,
+      "hideIndicator" : false,
+      "inputSourceId" : "com.apple.keylayout.ABC",
+      "sample" : "https://github.com/zellij-org/zellij",
+      "typeValue" : 1,
+      "value" : "github.com"
+    }
+  ],
+  "exportedAt" : "2026-07-19T06:45:11Z",
+  "hotKeyGroups" : [
+
+  ],
+  "keyboardConfigs" : [
+    {
+      "bgColorHex" : "fefefef2",
+      "id" : "com.apple.inputmethod.SCIM.ITABC",
+      "textColorHex" : "000000ff"
+    },
+    {
+      "bgColorHex" : "fefefef2",
+      "id" : "com.apple.keylayout.ABC",
+      "textColorHex" : "000000ff"
+    },
+    {
+      "bgColorHex" : "fefefef2",
+      "id" : "com.apple.keylayout.Greek",
+      "textColorHex" : "000000ff"
+    },
+    {
+      "id" : "com.tencent.inputmethod.wetype.pinyin"
+    },
+    {
+      "id" : "com.tencent.inputmethod.wetype.pinyin::com.tencent.inputmethod.wetype.pinyin"
+    }
+  ],
+  "keyboardShortcuts" : {
+
+  },
+  "preferences" : {
+    "appearanceMode" : "Light",
+    "browserAddressDefaultKeyboardId" : "com.apple.keylayout.ABC",
+    "cJKVFixStrategy" : "previousInputSourceShortcut",
+    "indicatorBackground" : {
+      "dark" : "000000ff",
+      "light" : "000000ff"
+    },
+    "indicatorForgeground" : {
+      "dark" : "fefefeff",
+      "light" : "ffffffff"
+    },
+    "indicatorInfo" : {
+      "base" : "iconAndTitle"
+    },
+    "indicatorPosition" : {
+      "base" : "windowCorner"
+    },
+    "indicatorPositionAlignment" : {
+      "base" : 3
+    },
+    "indicatorPositionSpacing" : {
+      "base" : 1
+    },
+    "indicatorSize" : {
+      "base" : 3
+    },
+    "isActiveWhenFocusedElementChanges" : false,
+    "isActiveWhenLongpressLeftMouse" : false,
+    "isActiveWhenSwitchApp" : false,
+    "isActiveWhenSwitchInputSource" : false,
+    "isAutoAppearanceMode" : true,
+    "isCJKVFixEnabled" : false,
+    "isEnableAlwaysOnIndicator" : false,
+    "isEnableURLSwitchForArc" : true,
+    "isEnableURLSwitchForBrave" : false,
+    "isEnableURLSwitchForBraveBeta" : false,
+    "isEnableURLSwitchForBraveNightly" : false,
+    "isEnableURLSwitchForChrome" : false,
+    "isEnableURLSwitchForChromium" : false,
+    "isEnableURLSwitchForDia" : false,
+    "isEnableURLSwitchForEdge" : true,
+    "isEnableURLSwitchForFirefox" : false,
+    "isEnableURLSwitchForFirefoxDeveloperEdition" : false,
+    "isEnableURLSwitchForFirefoxNightly" : false,
+    "isEnableURLSwitchForOpera" : false,
+    "isEnableURLSwitchForSafari" : true,
+    "isEnableURLSwitchForSafariTechnologyPreview" : false,
+    "isEnableURLSwitchForThorium" : false,
+    "isEnableURLSwitchForVivaldi" : false,
+    "isEnableURLSwitchForZen" : false,
+    "isEnhancedModeEnabled" : true,
+    "isFunctionKeysEnabled" : false,
+    "isHideWhenSwitchAppWithForceKeyboard" : false,
+    "isLaunchAtLogin" : true,
+    "isRestorePreviouslyUsedInputSource" : true,
+    "isShowIconInMenuBar" : true,
+    "shortcutModeGroupMapping" : {
+
+    },
+    "shortcutModeInputSourceMapping" : {
+
+    },
+    "shortcutTriggerMode" : "keyboardShortcut",
+    "singleModifierGroupMapping" : {
+
+    },
+    "singleModifierInputSourceMapping" : {
+
+    },
+    "singleModifierTrigger" : "singlePress",
+    "singleModifierTriggerGroupMapping" : {
+
+    },
+    "singleModifierTriggerInputSourceMapping" : {
+
+    },
+    "systemWideDefaultKeyboardId" : "com.apple.keylayout.ABC",
+    "tryToDisplayIndicatorNearCursor" : false
+  },
+  "schemaVersion" : 1
+}

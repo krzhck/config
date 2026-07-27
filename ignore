@@ -1,0 +1,181 @@
+# =====================================
+# macOS
+# =====================================
+
+# Finder metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Spotlight
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+
+# =====================================
+# Windows
+# =====================================
+
+# Explorer metadata
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows thumbnail cache
+*.db
+
+# Desktop configuration
+Desktop.ini
+
+# Windows search index
+$RECYCLE.BIN/
+*.lnk
+
+
+# =====================================
+# Linux
+# =====================================
+
+# File manager metadata
+.directory
+
+# Temporary lock files
+.nfs*
+
+# Trash directories
+.Trash-*/
+.Trash/
+
+
+# =====================================
+# IDE / editor files
+# =====================================
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+
+# =====================================
+# General temporary files
+# =====================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.log
+*~
+
+
+# =====================================
+# Compiled / build artifacts
+# =====================================
+
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+*.class
+
+# Debug symbols
+*.dSYM/
+
+# Generic build directories
+build/
+dist/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+
+# =====================================
+# Python common files
+# =====================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+
+# =====================================
+# Rust
+# =====================================
+
+target/
+
+
+# =====================================
+# Go
+# =====================================
+
+# Go build output
+*.test
+
+
+
+# =====================================
+# Database files
+# =====================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+
+# =====================================
+# Secret / environment files
+# =====================================
+
+.env
+.env.*
+!.env.example
+
+
+# =====================================
+# Archives
+# =====================================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz

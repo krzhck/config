@@ -38,12 +38,7 @@ alias man='tldr'
 alias fk='fuck'
 alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
 # alias azure='ssh -i /Users/krzhck/.ssh/anton_key.pem krzhck@20.2.144.35'
-plugins=(
-  git
-  zsh-syntax-highlighting
-  zsh-autosuggestions
-  autojump
-)
+
 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
 function proxy(){
