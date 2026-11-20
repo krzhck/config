@@ -1,11 +1,9 @@
 [gpg]
 	format = ssh
-[gpg "ssh"]
-	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
 [commit]
 	gpgsign = true
 [user]
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ6DeSnSeNx2qf+Jh1Jed1c2gAlsDyt6XyHeF++RBJpU
+	signingkey = /Users/krzhck/.ssh/id_ed25519.pub
 	name = krzhck
 	email = isaaxou@icloud.com
 [http]
