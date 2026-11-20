@@ -5,7 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Start configuration added by Zim install {{{
+# Start configuration added by Zim Framework install {{{
 #
 # User configuration sourced by interactive shells
 #
@@ -14,55 +14,39 @@ fi
 # Zsh configuration
 # -----------------
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-export ZSH="$HOME/.zim"
-
-export JAVA_17_HOME="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home"
-export JAVA_8_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home"
-
-# default java 17
-export JAVA_HOME=$JAVA_17_HOME
-export CLASSPATH=$JAVA_HOME/lib
-export PATH=".:$PATH:$JAVA_HOME/bin"
-export PATH=$PATH:/usr/local/mysql/bin
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+export PATH="$PATH:$(go env GOPATH)/bin"
 
-alias jdk17='export JAVA_HOME=$JAVA_17_HOME'
-alias jdk8='export JAVA_HOME=$JAVA_8_HOME'
-alias sub='sublime'
-alias t='tmux'
-alias q='exit'
-alias man='tldr'
-alias fk='fuck'
-alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
-# alias azure='ssh -i /Users/krzhck/.ssh/anton_key.pem krzhck@20.2.144.35'
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/krzhck/.lmstudio/bin"
+# End of LM Studio CLI section
 
-[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+# -- Use fd instead of fzf --
+export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
 
-function proxy(){
-   export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
-    echo -e "proxy on"
-    curl cip.cc
+export BAT_THEME=Monokai-Soda
+
+export SSH_AUTH_SOCK="$HOME/.bitwarden-ssh-agent.sock"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Use fd (https://github.com/sharkdp/fd) for listing path candidates.
+# - The first argument to the function ($1) is the base path to start traversal
+# - See the source code (completion.{bash,zsh}) for the details.
+_fzf_compgen_path() {
+  fd --hidden --exclude .git . "$1"
 }
 
-function unproxy(){
-    unset http_proxy
-    unset https_proxy
-    unset all_proxy
-    echo -e "proxy off"
-    curl cip.cc
+# Use fd to generate the list for directory completion
+_fzf_compgen_dir() {
+  fd --type=d --hidden --exclude .git . "$1"
 }
 
-function y() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
-	yazi "$@" --cwd-file="$tmp"
-	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-		builtin cd -- "$cwd"
-	fi
-	rm -f -- "$tmp"
-}
+source $HOME/.cargo/env
 
 #
 # History
@@ -86,13 +70,6 @@ bindkey -e
 
 # Remove path separator from WORDCHARS.
 WORDCHARS=${WORDCHARS//[\/]}
-
-# -----------------
-# Zim configuration
-# -----------------
-
-# Use degit instead of git as the default tool to install and update modules.
-#zstyle ':zim:zmodule' use 'degit'
 
 # --------------------
 # Module configuration
@@ -150,8 +127,6 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 # Initialize modules
 # ------------------
 
-export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
-
 ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 # Download zimfw plugin manager if missing.
 if [[ ! -e ${ZIM_HOME}/zimfw.zsh ]]; then
@@ -164,36 +139,70 @@ if [[ ! -e ${ZIM_HOME}/zimfw.zsh ]]; then
   fi
 fi
 # Install missing modules, and update ${ZIM_HOME}/init.zsh if missing or outdated.
-if [[ ! ${ZIM_HOME}/init.zsh -nt ${ZDOTDIR:-${HOME}}/.zimrc ]]; then
-  source ${ZIM_HOME}/zimfw.zsh init -q
+if [[ ! ${ZIM_HOME}/init.zsh -nt ${ZIM_CONFIG_FILE:-${ZDOTDIR:-${HOME}}/.zimrc} ]]; then
+  source ${ZIM_HOME}/zimfw.zsh init
 fi
 # Initialize modules.
 source ${ZIM_HOME}/init.zsh
+# }}} End configuration added by Zim Framework install
 
-# conda activate
-source ~/miniforge3/bin/activate
+# my alias
+alias sub='subl'
+alias t='tmux'
+alias q='exit'
+alias man='tldr'
+alias fk='fuck'
+alias vim="nvim"
+alias vi="nvim"
+alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
+alias h="herdr"
+# my functions
+function proxy(){
+   export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+    echo -e "proxy on"
+    curl cip.cc
+}
 
-# ------------------------------
-# Post-init module configuration
-# ------------------------------
+function unproxy(){
+    unset http_proxy
+    unset https_proxy
+    unset all_proxy
+    echo -e "proxy off"
+    curl cip.cc
+}
 
-#
-# zsh-history-substring-search
-#
+function y() {
+    local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+    yazi "$@" --cwd-file="$tmp"
+    if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+        builtin cd -- "$cwd"
+    fi
+    rm -f -- "$tmp"
+}
 
-zmodload -F zsh/terminfo +p:terminfo
-# Bind ^[[A/^[[B manually so up/down works both before and after zle-line-init
-for key ('^[[A' '^P' ${terminfo[kcuu1]}) bindkey ${key} history-substring-search-up
-for key ('^[[B' '^N' ${terminfo[kcud1]}) bindkey ${key} history-substring-search-down
-for key ('k') bindkey -M vicmd ${key} history-substring-search-up
-for key ('j') bindkey -M vicmd ${key} history-substring-search-down
-unset key
-# }}} End configuration added by Zim install
+# thefuck alias
+eval $(thefuck --alias)
+
+# ---- Zoxide (better cd) ----
+eval "$(zoxide init zsh --cmd cd)"
+
+source <(fzf --zsh)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-source $HOME/.cargo/env
-# ~/.zshrc
-eval $(thefuck --alias)
-
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/krzhck/miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/krzhck/miniforge3/etc/profile.d/conda.sh" ]; then
+        . "/Users/krzhck/miniforge3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/krzhck/miniforge3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+# conda always at bottom
